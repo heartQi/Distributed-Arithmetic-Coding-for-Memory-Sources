@@ -1,0 +1,101 @@
+﻿生成启动时间为 2012/1/12 11:13:40。
+     1>项目“F:\WorkPlace\Cityu\Distributed Source Coding Based On Chaos\Arithmetic Coding based DSC\FastAC\FastAC\acfile\acfile.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\acfile.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\Debug\acfile.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt acfile.cpp ..\arithmetic_codec.cpp ..\Profiler.cpp ..\report.cpp ..\sconfig.cpp ..\tools.cpp
+         tools.cpp
+         sconfig.cpp
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(96): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(260): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(261): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(272): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(456): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(458): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(502): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(507): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\sconfig.cpp(514): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : 参见“_snprintf”的声明
+         report.cpp
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\report.cpp(6): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\report.cpp(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\report.cpp(21): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 参见“itoa”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\report.cpp(27): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         Profiler.cpp
+         arithmetic_codec.cpp
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\arithmetic_codec.cpp(287): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\arithmetic_codec.cpp(342): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\arithmetic_codec.cpp(344): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\arithmetic_codec.cpp(366): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\arithmetic_codec.cpp(374): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\arithmetic_codec.cpp(386): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\arithmetic_codec.cpp(565): warning C4018: “<”: 有符号/无符号不匹配
+         acfile.cpp
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\acfile\acfile.cpp(150): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\acfile\acfile.cpp(167): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\acfile\acfile.cpp(201): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\acfile\acfile.cpp(267): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\acfile\acfile.cpp(275): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\acfile\acfile.cpp(303): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\acfile\acfile.cpp(347): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\rand.c
+         rand.c
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\rand.c(143): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\rand.c(306): warning C4715: “rand_pickd”: 不是所有的控件路径都返回值
+     1>f:\workplace\cityu\distributed source coding based on chaos\arithmetic coding based dsc\fastac\fastac\rand.c(341): warning C4715: “rand_pickf”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\acfile.exe.embed.manifest.res" .\Debug\acfile_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\WorkPlace\Cityu\Distributed Source Coding Based On Chaos\Arithmetic Coding based DSC\FastAC\FastAC\acfile\.\Debug\acfile.exe) 与 Linker 的 OutputFile 属性值(F:\WorkPlace\Cityu\Distributed Source Coding Based On Chaos\Arithmetic Coding based DSC\FastAC\FastAC\bin\acfile.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\acfile.exe" /INCREMENTAL /NOLOGO Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\acfile.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/acfile.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\acfile.lib" /MACHINE:X86 .\Debug\acfile.exe.embed.manifest.res
+         .\Debug/acfile.obj
+         .\Debug/arithmetic_codec.obj
+         .\Debug/Profiler.obj
+         .\Debug/rand.obj
+         .\Debug/report.obj
+         .\Debug/sconfig.obj
+         .\Debug/tools.obj
+       Manifest:
+         正在删除文件“.\Debug\acfile.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\acfile.exe.embed.manifest" /manifest .\Debug\acfile.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\acfile.exe.embed.manifest.res" .\Debug\acfile_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\acfile.exe" /INCREMENTAL /NOLOGO Winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\acfile.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/acfile.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\acfile.lib" /MACHINE:X86 .\Debug\acfile.exe.embed.manifest.res
+         .\Debug/acfile.obj
+         .\Debug/arithmetic_codec.obj
+         .\Debug/Profiler.obj
+         .\Debug/rand.obj
+         .\Debug/report.obj
+         .\Debug/sconfig.obj
+         .\Debug/tools.obj
+         acfile.vcxproj -> F:\WorkPlace\Cityu\Distributed Source Coding Based On Chaos\Arithmetic Coding based DSC\FastAC\FastAC\acfile\.\Debug\acfile.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\acfile.unsuccessfulbuild”。
+         正在对“.\Debug\acfile.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\WorkPlace\Cityu\Distributed Source Coding Based On Chaos\Arithmetic Coding based DSC\FastAC\FastAC\acfile\acfile.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.68

@@ -1,0 +1,25 @@
+﻿  acfile.cpp
+acfile.cpp(131): warning C4018: “<”: 有符号/无符号不匹配
+acfile.cpp(133): warning C4018: “<”: 有符号/无符号不匹配
+acfile.cpp(250): warning C4018: “<”: 有符号/无符号不匹配
+acfile.cpp(338): warning C4018: “<”: 有符号/无符号不匹配
+acfile.cpp(346): warning C4018: “<”: 有符号/无符号不匹配
+acfile.cpp(376): warning C4018: “<”: 有符号/无符号不匹配
+acfile.cpp(427): warning C4018: “<”: 有符号/无符号不匹配
+acfile.cpp(500): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  arithmetic_codec.cpp
+..\arithmetic_codec.cpp(336): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+..\arithmetic_codec.cpp(417): warning C4018: “<”: 有符号/无符号不匹配
+..\arithmetic_codec.cpp(448): warning C4018: “<”: 有符号/无符号不匹配
+..\arithmetic_codec.cpp(674): warning C4018: “>=”: 有符号/无符号不匹配
+  Profiler.cpp
+  report.cpp
+..\report.cpp(21): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdlib.h(1334): note: 参见“itoa”的声明
+  sconfig.cpp
+  tools.cpp
+  正在生成代码...
+  rand.c
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\abc\Desktop\test\多阶MarkovePycx\acfile\.\Release\acfile.exe) does not match the Linker's OutputFile property value (C:\Users\abc\Desktop\test\多阶MarkovePycx\bin\acfile.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  acfile.vcxproj -> C:\Users\abc\Desktop\test\多阶MarkovePycx\acfile\.\Release\acfile.exe
+  acfile.vcxproj -> .\Release/acfile.pdb (Full PDB)

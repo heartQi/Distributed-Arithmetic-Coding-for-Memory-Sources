@@ -1,0 +1,51 @@
+﻿生成启动时间为 2012/3/15 16:17:59。
+     1>项目“F:\WorkPlace\Cityu\SDAC\Sourcecode\DAC\FastAC\acwav\acwav.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\acwav.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\Debug\acwav.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt acwav.cpp ..\arithmetic_codec.cpp
+         arithmetic_codec.cpp
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\arithmetic_codec.cpp(337): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\arithmetic_codec.cpp(392): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\arithmetic_codec.cpp(394): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\arithmetic_codec.cpp(417): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\arithmetic_codec.cpp(420): warning C4018: “>=”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\arithmetic_codec.cpp(451): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\arithmetic_codec.cpp(636): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\arithmetic_codec.cpp(670): warning C4018: “<”: 有符号/无符号不匹配
+         acwav.cpp
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\acwav\acwav.cpp(349): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\acwav\acwav.cpp(370): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\acwav\acwav.cpp(375): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 参见“gets”的声明
+     1>f:\workplace\cityu\sdac\sourcecode\dac\fastac\acwav\acwav.cpp(379): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\acwav.exe.embed.manifest.res" .\Debug\acwav_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\WorkPlace\Cityu\SDAC\Sourcecode\DAC\FastAC\acwav\.\Debug\acwav.exe) 与 Linker 的 OutputFile 属性值(F:\WorkPlace\Cityu\SDAC\Sourcecode\DAC\FastAC\bin\acwav.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\acwav.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\acwav.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/acwav.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\acwav.lib" /MACHINE:X86 .\Debug\acwav.exe.embed.manifest.res
+         .\Debug/acwav.obj
+         .\Debug/arithmetic_codec.obj
+       Manifest:
+         正在删除文件“.\Debug\acwav.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\acwav.exe.embed.manifest" /manifest .\Debug\acwav.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\acwav.exe.embed.manifest.res" .\Debug\acwav_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\acwav.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\acwav.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/acwav.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\acwav.lib" /MACHINE:X86 .\Debug\acwav.exe.embed.manifest.res
+         .\Debug/acwav.obj
+         .\Debug/arithmetic_codec.obj
+         acwav.vcxproj -> F:\WorkPlace\Cityu\SDAC\Sourcecode\DAC\FastAC\acwav\.\Debug\acwav.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\acwav.unsuccessfulbuild”。
+         正在对“.\Debug\acwav.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\WorkPlace\Cityu\SDAC\Sourcecode\DAC\FastAC\acwav\acwav.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.91

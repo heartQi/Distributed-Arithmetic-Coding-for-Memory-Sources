@@ -1,0 +1,3 @@
+﻿acfile.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  acfile.vcxproj -> C:\Users\abc\Desktop\test\多阶MarkovePycx\acfile\..\bin\acfile.exe
+  acfile.vcxproj -> .\Debug/acfile.pdb (Full PDB)
